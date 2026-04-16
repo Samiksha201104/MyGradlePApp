@@ -26,7 +26,7 @@ stage('Run')
 steps{
 sh 'cp target/MyMavenWebApp01.war /opt/tomcat/webapps/'
 }
-}
+}}
 post
 {
 success{
