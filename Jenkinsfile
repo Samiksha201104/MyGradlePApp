@@ -7,7 +7,7 @@ stages{
 stage('Checkout')
 {
 steps{
-git branch;'master',url:'https://github.com/Samiksha201104/MyGradlePApp.git'
+git branch:'master',url:'https://github.com/Samiksha201104/MyGradlePApp.git'
 }}
 stage('Build')
 {
